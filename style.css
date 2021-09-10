@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: #728f53;; 
+    font-family: "DejaVu Sans Mono", monospace; 
+    font-size:larger;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 25px!important;
+}
+.homePage{
+    background-image: url('bcgg.jpg');
+    background-color: rgb(195, 223, 195);
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.homePage>p{
+    color:#728f53;
+    font-size: 10vw;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-weight: bold;
+    padding-left: 12%;
+    padding-top: 40vh;
+}
+.aboutPage{
+    background-color: #728f53;
+    width: 100%;
+    height: 100vh;
+}
+.aboutPage>p{
+    color: whitesmoke;
+    font-size: 5vh;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-weight: bolder;
+    padding-left: 12%;
+    padding-top: 45vh;
+    padding-right:5%;
+}
+.contactPage{
+    background-color: rgb(230, 245, 230);
+    width: 100%;
+    height: 100vh;
+}
+.contactPage>form{
+    padding-top:30vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "DejaVu Sans Mono", monospace;
+    color: #728f53;
+    font-size: 3vh;
+}
+.page-footer{
+    background-color: #728f53;
+    font-style: italic;
+}
